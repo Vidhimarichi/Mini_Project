@@ -1,0 +1,102 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background-color: #006400; /* Dark Green */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header .logo p {
+    font-size: 18px;
+}
+
+/* Blog Posts Section */
+.blog-posts {
+    padding: 40px 20px;
+    background-color: white;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.blog-posts h2 {
+    text-align: center;
+    color: #006400;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.post {
+    display: flex;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.post img {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.post-content {
+    flex: 1;
+}
+
+.post-content h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.post-content .date {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.post-content .excerpt {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.post-content .read-more {
+    color: #006400;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Footer Section */
+footer {
+    background-color: #006400;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
